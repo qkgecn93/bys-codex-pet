@@ -24,18 +24,6 @@ https://github.com/qkgecn93/bys-codex-pet/tree/main/skills/bys-codex-pet
 
 也可以把 `skills/bys-codex-pet` 复制到个人 Skill 目录。Codex 支持从 GitHub 仓库路径安装 Skill；安装后如果没有立即出现，请重启 Codex。
 
-## 发布到 GitHub
-
-当前目录已经初始化为 `main` 分支 Git 仓库。确认已安装并登录 GitHub CLI 后，可以在仓库根目录执行：
-
-```bash
-git add .
-git commit -m "Initial release of bys-codex-pet"
-gh repo create bys-codex-pet --public --source . --remote origin --push
-```
-
-仓库地址已配置为 `qkgecn93/bys-codex-pet`。执行发布命令会创建或更新公开仓库，请在操作前再次确认没有把私人照片或生成目录加入暂存区。
-
 ## 使用
 
 安装后可以直接说：
