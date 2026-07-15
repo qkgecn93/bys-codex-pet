@@ -1,0 +1,33 @@
+# Private source material and generated runs
+images/
+references-private/
+source-photos/
+pet-runs/
+.bys-pet-runs/
+exports/
+generated_images/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# System and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test output
+coverage.xml
+.coverage
+test-output/
